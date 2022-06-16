@@ -1,0 +1,60 @@
+body {
+    background: lightblue;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    /* border: 1px solid black; */
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 20px;
+}
+.logo img {
+    width: 80px;
+}
+.nav {
+    margin: 0;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 16px;
+}
+.menu li {
+    margin-right: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    transition: all 1s;
+    cursor: pointer;
+}
+.menu li:hover {
+transform: scale(1.2);
+color: black;
+}
+.menu li:last-child {
+    margin-right: 0;
+}
+.contacts {
+    margin:4px 20px 4px 0;
+    
+}
+.contacts1, .contacts2, .contacts3 {
+    margin: 0;
+    padding: 0;
+}
+.contacts1 a img, .contacts2 a img, .contacts3 a img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.contacts1 a img:hover, .contacts2 a img:hover, .contacts3 a img:hover {
+transform: scale(1.2);
+}
